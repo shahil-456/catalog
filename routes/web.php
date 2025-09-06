@@ -20,6 +20,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::get('catalogs', [CatalogController::class, 'index'])->name('catalogs');
 Route::get('/catalogs/{catalogId}/products', [CatalogController::class, 'getProducts']) ->name('catalog.products');
 Route::get('delete-product/{id}', [ProductController::class, 'destroy'])->name('product.delete');

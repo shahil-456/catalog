@@ -5,12 +5,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use App\Models\Product;
 use App\Models\Catalog;
-use Spatie\Permission\Models\Permission;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Hash;
-use App\Repositories\ProductRepositoryInterface;
 
 class CatalogController extends Controller
 {
@@ -41,7 +36,7 @@ class CatalogController extends Controller
 
 
 
-    
+
 
 
     // public function search(Request $request)
